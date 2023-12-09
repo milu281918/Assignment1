@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+*{
+  margin:0;
+  padding: 0;   
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: rgb(255 255 233);
+}
+
+nav {
+    background-color: rgb(255 255 233);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.menu {
+    display: inline-block;
+}
+body .box-content1{
+  
+    height: 20rem;
+    background-image: url("banner.png");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+    width: 50%;
+    background-color: #323432;
+}
+
+
+.form-box, .map-box {
+    flex: 1;
+    
+    box-sizing: border-box;
+}
+.box1, .box2.box3 {
+    flex: 1;
+    
+    box-sizing: border-box;
+}
+.form-box {
+    margin: 3rem 0rem 5rem 0rem;
+    padding: 3rem 0rem 0rem 3rem;
+   
+}
+input{
+    width: 80%;
+    height: 1.6rem;
+    border-radius: 0.2rem;
+    background-color: #343333;
+    margin: 0.5rem 0 0.5rem 0;
+}
+textarea{
+    width: 80%;
+    
+    border-radius: 0.2rem;
+    background-color: #343333;
+    margin: 0.5rem 0 0.5rem 0;
+}
+label{
+    color: white;
+ }
+ .container img{
+    height: 100%;
+    width: 100%;
+  }
+.map-box {
+    background-color: #ddd;
+    overflow: hidden; /* To prevent map overflow */
+}
+
+/* Adjustments for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+.btn{
+    width: 50%;
+    height: 30px; 
+    border-radius: 0.3rem;
+    background-color:#f3f25b;
+    
+}
+.hero-info{
+    
+    height: 10rem;
+ 
+}
+.btn1{
+    width: 100px;
+    height: 30px; 
+    border-radius: 0.3rem;
+    background-color:#f3f25b;
+    
+}
+
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+    width: 70%;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.box1,.box2,.box3 {
+    flex: 1;
+    max-width: 40%; /* Adjust as needed */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.container1 img{
+    
+    
+    width: 50%;
+    height:60% ;
+    
+}
+
+/* Adjustments for responsiveness */
+@media screen and (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
